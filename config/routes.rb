@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get '/twitter', to: 'fetches#show_twitter'
   get '/facebook', to: 'fetches#show_facebook'
   get '/instagram', to: 'fetches#show_instagram'
-  get '/', to: 'fetches#get_all'
+  get '/', to: 'fetches#index'
 end
