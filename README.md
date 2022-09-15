@@ -3,22 +3,9 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Coding to fulfill requirements are done in two places:
+1. social_challenge/app/controllers/fetches_controller.rb 
+2. 2. social_challenge/spec/requests/fetch_spec.rb
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Fetches controller is responsible for rendering the correct data for the given parameter(url). The controller also contains comments with documentation for what each method does, and my approach for the structure of the controller and methods within it.
+fetch_spec contains the code for the test suite used to test each method in the Fetches controller. Each test was run at least 10 times and passed every time.
